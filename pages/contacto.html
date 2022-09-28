@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body class="body__contacto">
+    <!-- <header>
+        <ul>
+            <li >
+                <a class="menu" href="../index.html">Pagina de inicio</a>
+            </li>
+        </ul>
+    </header> -->
+    <header>
+        <div>
+            <ul>
+                <li>
+                    <a class="menu" href="../index.html" >Inicio</a>
+                </li>
+                <li>
+                    <a class="menu" href="./mas_informacion.html" >Info</a>
+                </li>
+                <li>
+                    <a class="menu" href="./imagenes.html" >Imagenes</a>
+                </li>
+                <li>
+                    <a class="menu" href="./videos.html" >Videos</a>
+                </li>
+                <li>
+                    <a class="menu" href="./contacto.html" >Contacto</a> 
+                </li>                  
+            </ul>
+        </div>    
+    </header>
+    <main>
+        <form method="post" id="formulario">
+            <legend>FORMULARIO DE CONTACTO</legend>
+            <div class="ingresar">
+                <label for="Nombre" >Ingrese su nombre: </label>
+                <input type="text" id="Nombre" placeholder="Ingrese su nombre">
+            </div>
+            <div class="ingresar" >
+                <label for="Email">Ingrese su correo: </label>
+                <input type="text" id="Email" placeholder="Ingrese su correo">
+            </div>
+            <div class="ingresar" >
+                <label for="Nacimiento">Ingrese su fecha de nacimiento: </label>
+                <input type="date" id="Nacimiento">
+            </div>
+            <div class="ingresar">
+                <h4>¿Ha asistido a un festival antes?</h5>
+                <div class="ingresar__radio">
+                    <input type="radio" name="estudia_actualmente" value="Si" checked> Si
+                </div>
+                <div class="ingresar__radio">
+                    <input type="radio" name="estudia_actualmente" value="No"> No
+                </div>
+            </div>
+            <div class="ingresar">
+                <h4>¿Como nos conoció?</h4>
+                <div class="ingresar__radio">
+                    <input type="radio" name="edad" value="Mayor"> Instagram
+                </div> 
+                <div class="ingresar__radio">
+                    <input type="radio" name="edad" value="Menor"> Facebook
+                </div>
+                <div class="ingresar__radio">
+                    <input type="radio" name="edad" value="Menor"> Carteleras
+                </div>
+            </div>
+            <div class="ingresar" id="boton_formulario">
+                <input id="enviar" type="submit" value="Enviar">
+                <input id="reset" type="reset" value="Limpiar">
+            </div>
+            
+        </form>
+    </main>
+    <footer >
+        <h3 class="footer">
+            TECHNO TRAVEL
+        </h3>
+    </footer>
+</body>
+</html>
