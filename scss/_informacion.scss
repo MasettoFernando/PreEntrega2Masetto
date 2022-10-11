@@ -1,0 +1,25 @@
+.body__informacion{
+    background-image: url("../assets/imagenes/techno10.jpg");   
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    .container{
+        padding-bottom: 4rem;
+        color: white;
+        .row{
+            border-radius: 7px;
+            padding-bottom: 5px;
+            background-image: linear-gradient(to left, rgba(74, 202, 214, 0.169), rgb(35, 4, 41));
+            p{
+                font-family: 'Aboreto', cursive; 
+                font-size: 25px;
+                font-weight: bold;
+            } 
+        }
+    }
+}
+
+
+
+

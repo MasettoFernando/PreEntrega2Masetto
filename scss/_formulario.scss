@@ -1,0 +1,46 @@
+.body__contacto{
+    background-image: url("../assets/imagenes/techno3.jpg") ;
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    #formulario{
+        background-image: $gradient-left;
+        margin: 2rem;
+        border-bottom-right-radius: 2rem;
+        color: white;
+        padding: 2rem;
+        legend{
+            font-size: 30px;
+        }
+        .ingresar{
+            margin-top: 1rem;
+            font-size: 20px;
+        }
+        .ingresar{
+            margin-top: 1rem;
+            font-size: 20px;
+            h4{
+                margin-top: 1rem;
+            }
+            .ingresar__radio{
+                margin-top: 0.5rem;
+            }
+        }  
+        .ingresar{
+            margin-top: 1rem;
+            font-size: 20px;
+        }
+        #boton_formulario input{
+            margin-top: 1rem;
+            font-size: 20px;
+            padding: .5rem;
+            border-radius: .3rem;
+        }  
+    }
+}
+
+
+
+
+

@@ -1,0 +1,17 @@
+
+.body__video{
+    background-color: black;
+    main{
+        grid-area: main;
+        .h1__video{
+            margin-top: 5vh;
+            text-align: center;
+            height: fit-content;
+            color: white;
+        }
+        iframe{
+            margin-top: 10vh;
+            width: 100%;
+        }
+    }
+}

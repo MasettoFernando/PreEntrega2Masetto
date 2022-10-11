@@ -1,0 +1,45 @@
+.body__imagenes{
+    background-color: black;
+    h1{
+        color: white;
+        margin-top: 40vh;
+        text-align: center;
+        height: 50vh;
+    }
+    .h1__imagenes{
+        margin-top: 2vh;
+        margin-bottom: 3vh;
+        text-align: center;
+        height: fit-content;
+    }
+    .container{
+        padding-bottom: 4rem;
+        .row{
+            border-radius: 7px;
+            padding-bottom: 5px;
+        }
+        .card{
+            background-color: black;
+            color: white;
+            .card-text{
+                font-size: 25px;
+            }
+            &:hover{
+                background-image: $gradient-left;
+                padding: 1rem;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

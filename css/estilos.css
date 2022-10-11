@@ -1,231 +1,160 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Aboreto', cursive !important;
-}
-
-header{
-    grid-area: header;
-    background-image: linear-gradient(to left, rgba(74, 202, 214, 0.534), rgb(35, 4, 41));
-    background-size: center;
-    padding: 1rem;
-    border-bottom: 2px groove white;
-}
-
-h1{
-    color: white;
-    margin-top: 40vh;
-    text-align: center;
-    height: 50vh;
-}
-
-main{
-    grid-area: main;
-}
-
-ul{
-    list-style-type: none;
-    text-align: right;
-    text-decoration: none;
-
-}
-
-ul li{
-    margin-left: 2rem;
-}
-
-ul {    
-    display: flex;  flex-direction: row; 
-    justify-content: flex-end;
-    font-family: 'Aboreto', cursive;
-}
-
-p{
-    font-family: 'Aboreto', cursive; 
-    font-size: 25px;
-    font-weight: bold;
-}     
-
-h4{
-    margin-top: 1rem;
-}
-
-h2{
-    margin-top: 10vh;
-    color: white;
-    position: absolute;
-    left: 5vh;
-    font-size: 3rem;
-}
-
-h3{
-    margin-bottom: 1rem;
-    text-align: center;
-}
-
-iframe{
-    margin-top: 10vh;
-    width: 100%;
-}
-
-legend{
-    font-size: 30px;
-}
-
-.body__principal{
-    background-image: url("../assets/imagenes/techno1.jpg") ;
-    background-repeat: no-repeat ;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;               
-}
-
-body{
-    display: grid;
-    height: 100%;
-    display: grid;
-    grid-template-areas: "header"
-                         "main"
-                         "footer";
-    grid-template-rows: 5vh 92vh 3vh ;
-}
-
-.footer{
-    text-align: center!important;
-    font-family: 'Aboreto', cursive;
-    font-size: 15px !important;
-}
-
 footer {
-    grid-area: footer;
-    background-image: linear-gradient(to left, rgba(74, 202, 214, 0.534), rgb(35, 4, 41));
-    color: white;
-    width: 100%;
-    bottom: 0;
-    padding-top: 1rem !important;
-    position: fixed !important;
-}
+  grid-area: footer;
+  background-image: linear-gradient(to right, rgba(74, 202, 214, 0.534), #230429);
+  color: white;
+  width: 100%;
+  bottom: 0;
+  padding-top: 1rem !important;
+  position: fixed !important; }
+  footer h3 {
+    margin-bottom: 1rem;
+    text-align: center; }
+  footer .footer {
+    font-size: 15px !important; }
 
-#formulario{
-    background-color: rgb(34, 119, 158, 0.7);
+.body__contacto {
+  background-image: url("../assets/imagenes/techno3.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover; }
+  .body__contacto #formulario {
+    background-image: linear-gradient(to left, rgba(74, 202, 214, 0.501), #230429);
     margin: 2rem;
     border-bottom-right-radius: 2rem;
     color: white;
-    padding: 2rem;
-}
+    padding: 2rem; }
+    .body__contacto #formulario legend {
+      font-size: 30px; }
+    .body__contacto #formulario .ingresar {
+      margin-top: 1rem;
+      font-size: 20px; }
+    .body__contacto #formulario .ingresar {
+      margin-top: 1rem;
+      font-size: 20px; }
+      .body__contacto #formulario .ingresar h4 {
+        margin-top: 1rem; }
+      .body__contacto #formulario .ingresar .ingresar__radio {
+        margin-top: 0.5rem; }
+    .body__contacto #formulario .ingresar {
+      margin-top: 1rem;
+      font-size: 20px; }
+    .body__contacto #formulario #boton_formulario input {
+      margin-top: 1rem;
+      font-size: 20px;
+      padding: .5rem;
+      border-radius: .3rem; }
 
-#boton_formulario input{
-    margin-top: 1rem;
-    font-size: 20px;
-    padding: .5rem;
-    border-radius: .3rem;
-}
+header {
+  grid-area: header;
+  background-image: linear-gradient(to left, rgba(74, 202, 214, 0.501), #230429);
+  background-size: center;
+  padding: 1rem; }
+  header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-family: 'Aboreto', cursive;
+    list-style-type: none;
+    text-align: right;
+    text-decoration: none; }
+    header ul li {
+      margin-left: 2rem; }
+      header ul li:hover {
+        margin-top: 3px; }
+      header ul li .menu {
+        color: #fff9f9;
+        font-weight: bold;
+        padding-top: 30px;
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem; }
+        header ul li .menu:hover {
+          border-radius: 5px;
+          color: white;
+          background-image: linear-gradient(to top, rgba(74, 202, 214, 0.411), rgba(35, 4, 41, 0));
+          font-weight: bold;
+          padding-bottom: 10px !important;
+          border: 5px solid white; }
+      header ul li a {
+        text-decoration: none; }
 
-#p__info{
-    margin-top: 18vh;
-    position: absolute;
-    left: 5vh;
+.body__imagenes {
+  background-color: black; }
+  .body__imagenes h1 {
     color: white;
-    width: 40vh;
-    padding: 1rem;
-    background-color: rgba(255, 0, 0, .3);
-    border-radius: 1rem;
-}
-
-#p__top10{
-    position: absolute;
-    margin-left: 10vh;
-    margin-top: 5vh;
-    right: 5vh;
-    color: white;
-    width: 40vh;
-    padding: 1rem;
-    background-color: rgba(255, 2, 20, 0.4);
-    border-radius: 1rem;
-}
-
-.body__informacion{
-    background-image: url("../assets/imagenes/techno10.jpg");   
-    background-repeat: no-repeat ;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-}
-
-.main__informacion{
-    color: white;
-}
-
-.h1__video{
-    margin-top: 5vh;
+    margin-top: 40vh;
     text-align: center;
-    height: fit-content;
-}
-
-.h1__imagenes{
+    height: 50vh; }
+  .body__imagenes .h1__imagenes {
     margin-top: 2vh;
     margin-bottom: 3vh;
     text-align: center;
-    height: fit-content;
-}
+    height: fit-content; }
+  .body__imagenes .container {
+    padding-bottom: 4rem; }
+    .body__imagenes .container .row {
+      border-radius: 7px;
+      padding-bottom: 5px; }
+    .body__imagenes .container .card {
+      background-color: black;
+      color: white; }
+      .body__imagenes .container .card .card-text {
+        font-size: 25px; }
+      .body__imagenes .container .card:hover {
+        background-image: linear-gradient(to left, rgba(74, 202, 214, 0.501), #230429);
+        padding: 1rem; }
 
-.body__video{
-    background-color: black;
-}
-
-.body__contacto{
-    background-image: url("../assets/imagenes/techno3.jpg") ;
-    background-repeat: no-repeat ;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-}
-
-.body__imagenes{
-    background-color: black;
-}
-
-
-
-.menu{
-    color: white;
-    font-weight: bold ;
-}
-
-.menu:hover{
-    background-color: rgb(255, 255, 255);
-    color: rgb(97, 22, 22);
-    font-weight: bold ;
-    padding: 0.7rem;
-} 
-
-.ingresar{
-    margin-top: 1rem;
-    font-size: 20px;
-}
-
-.ingresar__radio{
-    margin-top: 0.5rem;
-}
-
-.card{
-    background-color: black;
-    color: white;
-}
-
-.card:hover{
-    background-image: linear-gradient(to left, rgba(74, 202, 214, 0.534), rgb(35, 4, 41));
-    padding: 1rem;
-}
-
-.container{
+.body__informacion {
+  background-image: url("../assets/imagenes/techno10.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover; }
+  .body__informacion .container {
     padding-bottom: 4rem;
-}
+    color: white; }
+    .body__informacion .container .row {
+      border-radius: 7px;
+      padding-bottom: 5px;
+      background-image: linear-gradient(to left, rgba(74, 202, 214, 0.169), #230429); }
+      .body__informacion .container .row p {
+        font-family: 'Aboreto', cursive;
+        font-size: 25px;
+        font-weight: bold; }
 
-.test {
-    width: 320px;
-    height: 220px;
-    background-color: rgba(255, 0, 0, 0.303);
-    padding-left: 50vh;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Aboreto', cursive !important; }
+
+body {
+  display: grid;
+  height: 100%;
+  display: grid;
+  grid-template-areas: "header" "main" "footer";
+  grid-template-rows: 5vh 92vh 3vh; }
+
+.body__principal {
+  background-image: url("../assets/imagenes/techno1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover; }
+  .body__principal h1 {
+    color: white;
+    margin-top: 40vh;
+    text-align: center;
+    height: 50vh; }
+
+.body__video {
+  background-color: black; }
+  .body__video main {
+    grid-area: main; }
+    .body__video main .h1__video {
+      margin-top: 5vh;
+      text-align: center;
+      height: fit-content;
+      color: white; }
+    .body__video main iframe {
+      margin-top: 10vh;
+      width: 100%; }

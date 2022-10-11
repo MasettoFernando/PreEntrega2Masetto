@@ -1,0 +1,39 @@
+header{
+    grid-area: header;
+    background-image: $gradient-left;
+    background-size: center;
+    padding: 1rem;    
+    ul {    
+        display: flex;  flex-direction: row; 
+        justify-content: flex-end;
+        font-family: 'Aboreto', cursive;
+        list-style-type: none;
+        text-align: right;
+        text-decoration: none;
+        li {
+            margin-left: 2rem;
+            &:hover{
+                margin-top: 3px;    
+            }
+            .menu{
+                color: rgb(255, 249, 249);
+                font-weight: bold ;
+                padding-top: 30px;
+                padding-left: 0.5rem !important;
+                padding-right: 0.5rem;
+                
+                &:hover{
+                    border-radius: 5px;
+                    color: rgb(255, 255, 255);
+                    background-image: $gradient-top;
+                    font-weight: bold ;
+                    padding-bottom: 10px !important;
+                    border: 5px solid white; 
+                } 
+            }
+            a {
+                text-decoration: none
+            }
+        }
+    }
+}
