@@ -1,0 +1,66 @@
+@mixin color-btn ($b, $c){
+    background-image: $b;
+    color: $c;
+}
+
+.menu{
+    color: rgb(255, 249, 249);
+    font-weight: bold ;
+
+    &--1:hover{
+        @include color-btn($gradient-top, rgb(255, 238, 0) );
+        border-radius: 5px;
+        font-weight: bold ;
+        padding-bottom: 10px !important;
+        border: 5px  solid white;
+        padding-top: 30px;
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem;
+        text-shadow: $shadow;   
+    }
+    &--2:hover{
+        @include color-btn($gradient-left, rgb(125, 235, 125) );
+        border-radius: 5px;
+        font-weight: bold ;
+        padding-bottom: 10px !important;
+        border: 5px  solid white;
+        padding-top: 30px;
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem;
+        text-shadow: $shadow;  
+    }
+    &--3:hover{
+        @include color-btn($gradient-top, rgb(0, 255, 221) );
+        border-radius: 5px;
+        font-weight: bold ;
+        padding-bottom: 10px !important;
+        border: 5px  solid white;
+        padding-top: 30px;
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem;
+        text-shadow: $shadow;  
+    }
+    &--4:hover{
+        @include color-btn($gradient-right, rgb(255, 0, 191));
+        border-radius: 5px;
+        font-weight: bold ;
+        padding-bottom: 10px !important;
+        border: 5px  solid white;
+        padding-top: 30px;
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem;
+        text-shadow: $shadow; 
+    }
+    &--5:hover{
+        @include color-btn($gradient-left, rgb(2, 167, 233) );
+        border-radius: 5px;
+        font-weight: bold ;
+        padding-bottom: 10px !important;
+        border: 5px  solid white;
+        padding-top: 30px;
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem;
+        text-shadow: $shadow; 
+    }
+
+}

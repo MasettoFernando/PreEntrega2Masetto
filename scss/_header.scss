@@ -15,22 +15,6 @@ header{
             &:hover{
                 margin-top: 3px;    
             }
-            .menu{
-                color: rgb(255, 249, 249);
-                font-weight: bold ;
-                padding-top: 30px;
-                padding-left: 0.5rem !important;
-                padding-right: 0.5rem;
-                
-                &:hover{
-                    border-radius: 5px;
-                    color: rgb(255, 255, 255);
-                    background-image: $gradient-top;
-                    font-weight: bold ;
-                    padding-bottom: 10px !important;
-                    border: 5px solid white; 
-                } 
-            }
             a {
                 text-decoration: none
             }

@@ -62,19 +62,6 @@ header {
       margin-left: 2rem; }
       header ul li:hover {
         margin-top: 3px; }
-      header ul li .menu {
-        color: #fff9f9;
-        font-weight: bold;
-        padding-top: 30px;
-        padding-left: 0.5rem !important;
-        padding-right: 0.5rem; }
-        header ul li .menu:hover {
-          border-radius: 5px;
-          color: white;
-          background-image: linear-gradient(to top, rgba(74, 202, 214, 0.411), rgba(35, 4, 41, 0));
-          font-weight: bold;
-          padding-bottom: 10px !important;
-          border: 5px solid white; }
       header ul li a {
         text-decoration: none; }
 
@@ -145,6 +132,65 @@ body {
     margin-top: 40vh;
     text-align: center;
     height: 50vh; }
+
+.menu {
+  color: #fff9f9;
+  font-weight: bold; }
+  .menu--1:hover {
+    background-image: linear-gradient(to top, rgba(74, 202, 214, 0.411), rgba(35, 4, 41, 0));
+    color: #ffee00;
+    border-radius: 5px;
+    font-weight: bold;
+    padding-bottom: 10px !important;
+    border: 5px  solid white;
+    padding-top: 30px;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem;
+    text-shadow: black 0.1em 0.1em 0.2em; }
+  .menu--2:hover {
+    background-image: linear-gradient(to left, rgba(74, 202, 214, 0.501), #230429);
+    color: #7deb7d;
+    border-radius: 5px;
+    font-weight: bold;
+    padding-bottom: 10px !important;
+    border: 5px  solid white;
+    padding-top: 30px;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem;
+    text-shadow: black 0.1em 0.1em 0.2em; }
+  .menu--3:hover {
+    background-image: linear-gradient(to top, rgba(74, 202, 214, 0.411), rgba(35, 4, 41, 0));
+    color: #00ffdd;
+    border-radius: 5px;
+    font-weight: bold;
+    padding-bottom: 10px !important;
+    border: 5px  solid white;
+    padding-top: 30px;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem;
+    text-shadow: black 0.1em 0.1em 0.2em; }
+  .menu--4:hover {
+    background-image: linear-gradient(to right, rgba(74, 202, 214, 0.534), #230429);
+    color: #ff00bf;
+    border-radius: 5px;
+    font-weight: bold;
+    padding-bottom: 10px !important;
+    border: 5px  solid white;
+    padding-top: 30px;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem;
+    text-shadow: black 0.1em 0.1em 0.2em; }
+  .menu--5:hover {
+    background-image: linear-gradient(to left, rgba(74, 202, 214, 0.501), #230429);
+    color: #02a7e9;
+    border-radius: 5px;
+    font-weight: bold;
+    padding-bottom: 10px !important;
+    border: 5px  solid white;
+    padding-top: 30px;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem;
+    text-shadow: black 0.1em 0.1em 0.2em; }
 
 .body__video {
   background-color: black; }
