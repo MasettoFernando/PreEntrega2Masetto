@@ -5,8 +5,10 @@
     background-position: center center;
     background-size: cover;
     .container{
-        padding-bottom: 4rem;
+        margin-bottom: 4rem;
+        max-height: fit-content;
         color: white;
+        overflow: auto;
         .row{
             border-radius: 7px;
             padding-bottom: 5px;
@@ -19,7 +21,5 @@
         }
     }
 }
-
-
 
 

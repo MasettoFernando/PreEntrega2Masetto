@@ -1,5 +1,6 @@
 .body__imagenes{
     background-color: black;
+
     h1{
         color: white;
         margin-top: 40vh;
@@ -13,24 +14,49 @@
         height: fit-content;
     }
     .container{
+        width: 100vw;
         padding-bottom: 4rem;
         .row{
             border-radius: 7px;
             padding-bottom: 5px;
-        }
-        .card{
-            background-color: black;
-            color: white;
-            .card-text{
-                font-size: 25px;
+            .card{
+                position:unset ;
+                background-color: rgb(0, 0, 0);
+                color: white;
+                max-height: fit-content;
+                img{
+                    max-height: 30vh;
+                }
+                .card-text{
+                    font-size: 25px;
+                }
+                &:hover{
+                    background-image: $gradient-left;
+                    padding: 1rem;
+                }
             }
-            &:hover{
-                background-image: $gradient-left;
-                padding: 1rem;
+        }
+        
+    }
+}
+
+@media screen and (max-width: 500px ){
+    
+    .container{
+        .row{
+            .card{
+                &:hover{
+                    background-image: unset !important;
+                    padding: none;
+                }
             }
         }
     }
 }
+
+
+
+
 
 
 

@@ -1,17 +1,31 @@
-
 .body__video{
     background-color: black;
     main{
         grid-area: main;
+        height: 100%;
         .h1__video{
-            margin-top: 5vh;
+            margin-top: 3vh;
+            
             text-align: center;
             height: fit-content;
             color: white;
         }
         iframe{
-            margin-top: 10vh;
-            width: 100%;
+
+            margin-top: 2vh;
+            margin-bottom: auto;
+            width: 80%;
+            padding-left: 10vw;
         }
     }
+}
+
+
+@media screen and (max-width: 500px ){
+    main{
+        .h1__video{
+            font-size: larger;
+        }
+    }
+    
 }
